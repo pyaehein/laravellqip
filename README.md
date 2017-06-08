@@ -19,7 +19,7 @@ $ composer require pyaehein/laravellqip
 
 2) Add the service providers in config/app.php:
 ``` php
-PyaeHein\LQIP\LQIPServiceProvider::class,,
+PyaeHein\LQIP\LQIPServiceProvider::class,
 ```
 
 3) Then run a few commands in the terminal:
