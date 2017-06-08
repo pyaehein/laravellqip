@@ -79,7 +79,7 @@ return [
 ```
 
 ## Remember
-Config file's 'path' is used for Image Library Intervension to auto create lqip image. Because, it doesn't support laravel's filesystem.
+Config file's 'path' is used for Image Library Intervention to auto create lqip image. Because, it doesn't support laravel's filesystem.
 So, your lqip image can be create only in your public folder :(
 
 ## Note
