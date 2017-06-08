@@ -1,0 +1,31 @@
+{
+  "name": "pyaehein/laravellqip",
+  "description": "LQIP Image handling for laravel.",
+  "keywords": ["image", "lqip", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pyae Hein",
+      "email": "nnieheayp@yahoo.com"
+    }
+  ],
+  "require": {
+    "intervention/image": "^2.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "PyaeHein\\LQIP\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php"
+    ],
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
